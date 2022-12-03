@@ -24,7 +24,9 @@ body {
 
 .top-section {
   background-color: var(--brand-color-white);
-  display: flex 
+  padding: 24px 0px;
+
+  
 }
 
 
@@ -37,6 +39,7 @@ body {
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
+  display: inline-block;
 }
 
 .logo-black {
@@ -297,14 +300,57 @@ body {
   margin: 0px auto;
   padding: 0 15px;
 }
-
 .nav-continer {
-  display: inline-flex;
-  justify-content: space-between;
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav-items {
+  display: flex;
   align-items: center;
 }
 
-.nav-list {
-  display:flex
-  
+.nav-list ul {
+  display: flex;
 }
+/* .nav-items li {
+  margin: 20px
+} */
+
+/* .link-contact a {
+  margin: 20px
+  
+} */
+
+.link-contact a {
+  margin:24px
+}
+
+.nav-list li{
+  margin:24px
+}
+
+/* .nav-continer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+}
+
+.link-contact {
+  display:flex
+ 
+}
+ .link-contact a {
+  margin:30px
+} 
+
+.nav-list a {
+margin:30px }
+
+.logo-continer{
+  display:flex
+} */
