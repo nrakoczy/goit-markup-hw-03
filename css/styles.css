@@ -314,14 +314,7 @@ body {
 .nav-list ul {
   display: flex;
 }
-/* .nav-items li {
-  margin: 20px
-} */
 
-/* .link-contact a {
-  margin: 20px
-  
-} */
 
 .link-contact a {
   margin:24px
@@ -331,26 +324,3 @@ body {
   margin:24px
 }
 
-/* .nav-continer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-list {
-  display: flex;
-}
-
-.link-contact {
-  display:flex
- 
-}
- .link-contact a {
-  margin:30px
-} 
-
-.nav-list a {
-margin:30px }
-
-.logo-continer{
-  display:flex
-} */
