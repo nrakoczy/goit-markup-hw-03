@@ -24,7 +24,9 @@ body {
 
 .top-section {
   background-color: var(--brand-color-white);
+  display: flex 
 }
+
 
 .logo-header {
   font-size: 26px;
@@ -286,4 +288,23 @@ body {
 }
 .address {
   font-style: normal;
+}
+
+ /* CONTENERS == FLEXBOX */
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+
+.nav-continer {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display:flex
+  
 }
