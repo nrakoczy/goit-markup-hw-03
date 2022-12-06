@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <!-- End Google fonts links -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,29 +21,29 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <!-- LOGO  -->
   <body>
-    
-    <header class="top-section container">
-       <div class="nav-continer">
+    <header class="top-section">
+      <div class="nav-continer container">
         <div class="nav-items">
           <a class="logo-header" href="/index.html">Web<span class="logo-black">Studio</span></a>
 
           <!-- NAVIGATION-->
           <nav class="nav-list">
-          <ul>
-            <li>
-              <a href="#">Agencja</a>
-            </li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li>
-              <a href="#">Kontakt</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+            <ul>
+              <li>
+                <a href="#">Agencja</a>
+              </li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li>
+                <a href="#">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <div class="link-contact">
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           <a href="tel:+48111111111"> +48 111 111 111 </a>
@@ -66,7 +66,7 @@
       <!-- LOREM  -->
 
       <section>
-        <div container="container">
+        <div class="container">
           <ul class="articles list">
             <li>
               <h3>Lorem ipsum</h3>
@@ -100,12 +100,12 @@
         </div>
       </section>
 
-      <!-- IMAGES PORTFOLIO -->
+      <!-- IMAGES PORFFESSION -->
 
       <section>
-        <div class="container">
+        <div class="profession-image">
           <h2 class="about-us">Czym się zajmujemy</h2>
-          <ul class="profession">
+          <ul class="profession container">
             <li>
               <img src="./images/profession/tech-1.jpg" width="370" height="294" alt="Typing" />
             </li>
@@ -131,54 +131,71 @@
 
       <!-- OUR TEAM  -->
       <section>
-        <div class="container">
-          <h2>Nasz zespół</h2>
-          <ul class="team list">
+     
+          <h2 class="our-team">Nasz zespół</h2>
+          <ul class="team list container">
             <li>
-              <img
-                src="./images/team/john-doe1.jpg"
-                width="270"
-                height="260"
-                alt="John Doe Product Designer"
-              />
-              <h3 class="john-doe">John Doe</h3>
-              <p class="position">Product Designer</p>
+              <figure class="our-team-figure">
+                <img
+                  src="./images/team/john-doe1.jpg"
+                  width="270"
+                  height="260"
+                  alt="John Doe Product Designer"
+                />
+                <figcaption>
+                  <h3 class="john-doe">John Doe</h3>
+                  <p class="position">Product Designer</p>
+                </figcaption>
+              </figure>
             </li>
             <li>
-              <img
-                src="./images/team/john-doe2.jpg"
-                width="270"
-                height="260"
-                alt="John Doe Frontend Developer"
-              />
-              <h3 class="john-doe">John Doe</h3>
-              <p class="position">Frontend Developer</p>
+              <figure class="our-team-figure">
+                <img
+                  src="./images/team/john-doe2.jpg"
+                  width="270"
+                  height="260"
+                  alt="John Doe Frontend Developer"
+                />
+                <figcaption>
+                  <h3 class="john-doe">John Doe</h3>
+                  <p class="position">Frontend Developer</p>
+                </figcaption>
+              </figure>
             </li>
             <li>
-              <img
-                src="./images/team/john-doe3.jpg"
-                width="270"
-                height="260"
-                alt="John Doe Marketing"
-              />
-              <h3 class="john-doe">John Doe</h3>
-              <p class="position">Marketing</p>
+              <figure class="our-team-figure">
+                <img
+                  src="./images/team/john-doe3.jpg"
+                  width="270"
+                  height="260"
+                  alt="John Doe Marketing"
+                />
+                <figcaption>
+                  <h3 class="john-doe">John Doe</h3>
+                  <p class="position">Marketing</p>
+                </figcaption>
+              </figure>
             </li>
             <li>
-              <img
-                src="./images/team/john-doe4.jpg"
-                width="270"
-                height="260"
-                alt="John Doe UI Designer"
-              />
-              <h3 class="john-doe">John Doe</h3>
-              <p class="position">UI Designer</p>
+              <figure class="our-team-figure">
+                <img
+                  src="./images/team/john-doe4.jpg"
+                  width="270"
+                  height="260"
+                  alt="John Doe UI Designer"
+                />
+                <figcaption>
+                  <h3 class="john-doe">John Doe</h3>
+                  <p class="position">UI Designer</p>
+                </figcaption>
+              </figure>
             </li>
           </ul>
-        </div>
+       
       </section>
     </main>
     <!-- FOTTER -->
+
     <footer class="bottom">
       <div class="container">
         <a class="logo-footer" href="/index.html"> Web<span class="logo-white">Studio</span></a>

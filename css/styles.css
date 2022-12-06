@@ -14,21 +14,33 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+
 .portfolio-bg {
   background-color: var(--brand-color-white);
+}
+.line-bg {
+  border-bottom: 1px solid #ECECEC;
 }
 
 .portfolio {
   list-style: none;
+  margin-top: 56px;
+}
+
+.portfolio li {
+  border: 1px solid #eeeeee;
 }
 
 .top-section {
   background-color: var(--brand-color-white);
   padding: 24px 0px;
-
-  
 }
-
 
 .logo-header {
   font-size: 26px;
@@ -39,7 +51,7 @@ body {
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
-  display: inline-block;
+  margin-right: 93px;
 }
 
 .logo-black {
@@ -74,10 +86,19 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration-line: none;
+  /* margin: 25px; */
+  margin-left: 50px;
 }
 .contact-info {
   text-decoration-line: none;
 }
+.contact-info {
+  last-child: margin-right: 50px;
+  
+}
+
+  
+
 
 .contact-info a:hover,
 .contact-info a:focus {
@@ -119,6 +140,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+
   background: var(--brand-color-blue);
   color: var(--brand-color-white);
   border: var(--brand-color-blue);
@@ -133,6 +155,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  padding: 200px 0px;
 }
 
 .order button:hover,
@@ -177,12 +200,14 @@ body {
   list-style-type: none;
 }
 
-.about us {
+.about-us {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 94px;
+  padding: 0;
 }
 
 .main-part {
@@ -210,6 +235,9 @@ body {
   list-style: none;
 }
 
+.profrssion-image {
+  background-color: #e5e5e5;
+}
 .team {
   text-align: center;
   list-style: none;
@@ -232,8 +260,8 @@ body {
 
 .bottom {
   background-color: var(--brand-color-dark);
+  padding: 0px;
 }
-
 .logo-white {
   color: var(--brand-color-white);
 }
@@ -246,6 +274,7 @@ body {
   line-height: 1.192;
   letter-spacing: 0.03em;
   text-decoration: none;
+ 
 }
 
 .link {
@@ -263,6 +292,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--brand-color-white);
   font-style: normal;
+  margin: 20px 0 60px;
+  padding: 0;
+}
+.our-address li {
+  margin-bottom: 6px;
 }
 
 .contact-mail {
@@ -293,17 +327,16 @@ body {
   font-style: normal;
 }
 
- /* CONTENERS == FLEXBOX */
+/* CONTENERS == FLEXBOX */
 
-.container {
-  width: 1200px;
-  margin: 0px auto;
-  padding: 0 15px;
-}
 .nav-continer {
   display: flex;
-   justify-content: space-between;
-   align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
 }
 
 .nav-items {
@@ -315,12 +348,112 @@ body {
   display: flex;
 }
 
-
 .link-contact a {
-  margin:24px
+  margin-left: 50px;
 }
 
-.nav-list li{
-  margin:24px
+.nav-list li {
+  margin: 24px;
+}
+
+.articles li {
+ 
+  /* padding: 0;
+  margin: 15px; */
+}
+
+.articles {
+  display: flex;
+  padding-left: 0px;
+   justify-content: space-between;
+   padding: 0px;
+   margin: 0px;
+  }
+
+
+.profession {
+  display: flex;
+   justify-content: space-between;
+  padding: 0px;
+ 
+}
+.profession li {
+  /* justify-content: space-between;
+  margin: 15px; */
+  /* first-child:margin-left: 0px; */
+  /* last-child:margin-right: 0px; */
+}
+
+.articles {
+  display: flex;
+  margin-top: 94px;
+  background-color: ;
+}
+
+.team {
+  display: flex;
+  padding: 0px;
+  /* justify-content: center; */
+ 
+}
+
+.our-team {
+  font-size: 36px;
+  line-height: 1.17;
+   letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+
+
+.our-team-figure {
+ margin: 0
+ 
+  
+}  
+
+.team {
+   justify-content: space-between; 
+   margin-bottom: 94px;
+}
+
+.team li {
+   /* justify-content: space-between;  */
+  gap: 30px;
+  margin: 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--brand-color-white);
+
+}
+
+.portfolio {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0;
+  gap: 30px;
+  text-align: center;
+  margin-bottom: 94px;
+}
+.portfolio li {
+  width: calc((100% - 60px) / 3);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 84px;
+}
+
+.buttons-text {
+  margin: 4px;
+}
+
+.our-address ul {
+  margin: 0px;
+  padding: 0px;
 }
 
