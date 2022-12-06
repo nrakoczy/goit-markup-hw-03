@@ -29,9 +29,22 @@ body {
 }
 
 .portfolio {
-  list-style: none;
+  /* list-style: none; */
   margin-top: 56px;
+
 }
+.portfolio {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0;
+  gap: 30px;
+  text-align: center;
+  margin-bottom: 94px;
+}
+.portfolio li {
+  width: calc((100% - 60px) / 3);
+}
+
 
 .portfolio li {
   border: 1px solid #eeeeee;
@@ -96,8 +109,6 @@ body {
   last-child: margin-right: 50px;
   
 }
-
-  
 
 
 .contact-info a:hover,
@@ -199,6 +210,14 @@ body {
   color: var(--brand-color-gray2);
   list-style-type: none;
 }
+
+.articles {
+  display: flex;
+  padding-left: 0px;
+   justify-content: space-between;
+   padding: 0px;
+   margin: 0px;
+  }
 
 .about-us {
   font-weight: 700;
@@ -356,33 +375,19 @@ body {
   margin: 24px;
 }
 
-.articles li {
- 
-  /* padding: 0;
-  margin: 15px; */
-}
 
-.articles {
-  display: flex;
-  padding-left: 0px;
-   justify-content: space-between;
-   padding: 0px;
-   margin: 0px;
-  }
+
+
 
 
 .profession {
   display: flex;
    justify-content: space-between;
   padding: 0px;
+  margin-bottom: 84px;
  
 }
-.profession li {
-  /* justify-content: space-between;
-  margin: 15px; */
-  /* first-child:margin-left: 0px; */
-  /* last-child:margin-right: 0px; */
-}
+
 
 .articles {
   display: flex;
@@ -402,7 +407,7 @@ body {
   line-height: 1.17;
    letter-spacing: 0.03em;
     text-align: center;
-
+    margin-bottom: 50px;
 }
 
 
@@ -429,17 +434,6 @@ body {
 
 }
 
-.portfolio {
-  flex-wrap: wrap;
-  display: flex;
-  padding: 0;
-  gap: 30px;
-  text-align: center;
-  margin-bottom: 94px;
-}
-.portfolio li {
-  width: calc((100% - 60px) / 3);
-}
 
 .button {
   display: flex;
