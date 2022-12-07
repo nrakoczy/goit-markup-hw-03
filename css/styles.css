@@ -19,12 +19,29 @@ body {
   margin: 0px auto;
   padding: 0 15px;
 }
+.logo-header {
+  font-size: 26px;
+  color: var(--brand-color-blue);
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: 93px;
+}
+
+.logo-black {
+  color: var(--brand-color-black);
+}
+
+.top-section {
+  background-color: var(--brand-color-white);
+  padding: 24px 0px;
+}
 
 .portfolio-bg {
   background-color: var(--brand-color-white);
-}
-.line-bg {
-  border-bottom: 1px solid #ececec;
 }
 
 .portfolio {
@@ -40,27 +57,6 @@ body {
 .portfolio li {
   width: calc((100% - 60px) / 3);
   border: 1px solid #eeeeee;
-}
-
-.top-section {
-  background-color: var(--brand-color-white);
-  padding: 24px 0px;
-}
-
-.logo-header {
-  font-size: 26px;
-  color: var(--brand-color-blue);
-  font-family: 'Raleway', sans-serif;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 700;
-  margin-right: 93px;
-}
-
-.logo-black {
-  color: var(--brand-color-black);
 }
 
 .nav-list a {
@@ -90,6 +86,10 @@ body {
 .nav-list {
   display: flex;
 }
+.line-nav {
+  border-bottom: 1px solid #ececec;
+}
+
 .nav-continer {
   display: flex;
   justify-content: space-between;
@@ -109,7 +109,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration-line: none;
-  /* margin: 25px; */
+
   margin-left: 50px;
 }
 .contact-info {
@@ -299,7 +299,7 @@ body {
 
 .bottom {
   background-color: var(--brand-color-dark);
-  padding-top: 60px;
+  padding: 60px 60px;
 }
 .logo-white {
   color: var(--brand-color-white);
